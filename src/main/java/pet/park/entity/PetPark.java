@@ -40,7 +40,7 @@ public class PetPark {
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude
 	@ManyToMany(cascade = CascadeType.PERSIST)
-	@JoinTable(name = "pet_part_amenity", 
+	@JoinTable(name = "pet_park_amenity", 
 			joinColumns = @JoinColumn(name = "pet_partk_id"), 
 			inverseJoinColumns = @JoinColumn(name = "amenity_id"))
 	private Set<Amenity> amenities = new HashSet<Amenity>();

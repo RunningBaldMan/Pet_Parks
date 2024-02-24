@@ -11,7 +11,6 @@ import jakarta.persistence.ManyToMany;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
-import pet.park.entity.PetPark;
 
 @Entity
 @Data
